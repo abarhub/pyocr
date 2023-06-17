@@ -20,7 +20,7 @@ import numpy as np                   # manipulation de tableaux
 #----------------------------------------------------------------------------
 (x_train,y_train), (x_test,y_test) = tfds.as_numpy(tfds.load(
      'emnist/letters',       # sélection du dataset avec les lettres
-     data_dir="C:/",         # emplacement pour charger le dataset sur disque
+     data_dir="D:/temp/emnist_data/",         # emplacement pour charger le dataset sur disque
      split=['train','test'], # utilisation des données d'apprentissage et test
      as_supervised=True,     # pour obtenir un type 'tuple' ald 'dataset'
      batch_size=-1))         # données stockées dans un seul lot de données
